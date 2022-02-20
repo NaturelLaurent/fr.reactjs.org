@@ -55,8 +55,8 @@ Ensuite, ajoutez trois balises `<script>` à votre page HTML, juste avant la fer
   <!-- Charge React -->
   <!-- Remarque : pour le déploiement, remplacez "development.js"
        par "production.min.js" -->
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
   <!-- Charge notre composant React -->
   <script src="like_button.js"></script>
@@ -115,8 +115,8 @@ Avant de déployer votre site web en production, gardez à l'esprit qu'un JavaSc
 Si vous minifiez déjà vos scripts applicatifs et si vous vous assurez de référencer les versions de React dont les noms se terminent en `production.min.js`, **votre site sera prêt pour la production** :
 
 ```js
-<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
 ```
 
 Si vous n'avez pas de minification déjà en place pour vos scripts, voici [une façon de faire](https://gist.github.com/gaearon/42a2ffa41b8319948f9be4076286e1f3).
